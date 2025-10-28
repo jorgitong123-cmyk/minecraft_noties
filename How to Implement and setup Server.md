@@ -46,6 +46,7 @@ Click "Integrations" → "Create Webhook"
 Give it a name
 Copy the Webhook URL
 Paste this URL in your watch_log.ps1 file where it says:
+$webhookUrl = "Your Discord Webhook URL Here" 
 Required Bot Permissions
 
 The bot needs these permissions:
