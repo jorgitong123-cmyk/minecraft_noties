@@ -8,7 +8,7 @@ function Send-DiscordEmbed($title, $desc, $color) {
     }
 
     $payload = @{
-        username = "YourBotName"
+        username = "YourBotName"    # Change to your bot's name *Have fun with it*
         embeds = @($embed)
     } | ConvertTo-Json -Depth 3
 
@@ -20,9 +20,9 @@ function Send-DiscordEmbed($title, $desc, $color) {
     }
 }
 
-# Configuration
-$logFile = "logs\latest.log" # Path to your Minecraft server log file
-$webhookUrl = "Your Discord Webhook URL Here"   # Replace with your Discord webhook URL
+# Configuration 
+$logFile = "logs\latest.log" # Path to your Minecraft server log file **DONT CHANGE THIS**
+$webhookUrl = "Your Discord Webhook URL Here"   # Replace with your Discord webhook URL *Change this*
 
 # Regex patterns
 $playerPattern = 'joined the game|has made|left the game|was slain by|fell from|drowned|burned to death|hit the ground too hard'
