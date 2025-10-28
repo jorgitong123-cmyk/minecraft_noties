@@ -21,8 +21,8 @@ function Send-DiscordEmbed($title, $desc, $color) {
 }
 
 # Configuration
-$logFile = "logs\latest.log"
-$webhookUrl = "Your Discord Webhook URL Here"
+$logFile = "logs\latest.log" # Path to your Minecraft server log file
+$webhookUrl = "Your Discord Webhook URL Here"   # Replace with your Discord webhook URL
 
 # Regex patterns
 $playerPattern = 'joined the game|has made|left the game|was slain by|fell from|drowned|burned to death|hit the ground too hard'
