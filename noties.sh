@@ -1,5 +1,5 @@
 #!/bin/bash
-USER_KEY="u9ezm9i371ek9kx8ce6hf1yb4zrdrk"
+USER_KEY="Your Pushover User Key Here"
 APP_TOKEN="amvv1iz7oipdtvsmqtcgfeqm64ew7q"
 LOG_FILE="logs/latest.log"
 

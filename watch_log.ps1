@@ -8,7 +8,7 @@ function Send-DiscordEmbed($title, $desc, $color) {
     }
 
     $payload = @{
-        username = "Mc Notifier"
+        username = "YourBotName"
         embeds = @($embed)
     } | ConvertTo-Json -Depth 3
 
@@ -22,7 +22,7 @@ function Send-DiscordEmbed($title, $desc, $color) {
 
 # Configuration
 $logFile = "logs\latest.log"
-$webhookUrl = "https://discord.com/api/webhooks/1371921186740633640/Z1OI5GtADbaYdP_HOUGWvC4CoVDEcWMhG_iov4Eoz0hEX1IMm1YwisHkD6aVNi1CmNql"
+$webhookUrl = "Your Discord Webhook URL Here"
 
 # Regex patterns
 $playerPattern = 'joined the game|has made|left the game|was slain by|fell from|drowned|burned to death|hit the ground too hard'
