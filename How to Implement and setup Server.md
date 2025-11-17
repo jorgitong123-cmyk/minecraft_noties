@@ -27,32 +27,7 @@ Now that the logs file is generated, place the location of the file in the notie
 
 Step 6: Probably the most tedious and annoying part.
 
-Create a New Application
-
-Go to https://discord.com/developers/applications
-Click "New Application"
-Give your bot a name
-Set up the Bot User
-
-Go to the "Bot" section in the left sidebar
-Click "Add Bot"
-Under the bot's username, you'll see a "Token" section
-(Don't share this token with anyone)
-Create a Webhook
-
-Go to your Discord server
-Edit the channel where you want the notifications
-Click "Integrations" → "Create Webhook"
-Give it a name
-Copy the Webhook URL
-Paste this URL in your watch_log.ps1 file where it says:
-$webhookUrl = "Your Discord Webhook URL Here" 
-Required Bot Permissions
-
-The bot needs these permissions:
-Send Messages
-Embed Links
-Read Message History
-View Channels
-
-Congrats your done!!! Now load up the server and let everything do its thing!
+Create a Discord Webhook by going into a channel, 
+integrations and webhooks. Go to "Webhook"
+Name it and copy its "URL" in the configuratiosn tab of 
+watch_log.ps1.
