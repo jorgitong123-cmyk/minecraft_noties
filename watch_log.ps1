@@ -25,7 +25,14 @@ $logFile = "logs\latest.log" # Path to your Minecraft server log file **DONT CHA
 $webhookUrl = "Your Discord Webhook URL Here"   # Replace with your Discord webhook URL *Change this*
 
 # Regex patterns
-$playerPattern = 'joined the game|has made|left the game|was slain by|fell from|drowned|burned to death|hit the ground too hard'
+$playerPattern = 'was slain by|was shot by|was blown up by|blew up|was killed by magic|
+was killed while trying to hurt|was struck by lightning|drowned|burned to death|
+went up in flames|tried to swim in lava|was pricked to death|walked into a cactus|
+hit the ground too hard|fell from a high place|fell out of the world|
+was squished by a falling anvil|was squashed by a falling block|
+froze to death|starved to death|suffocated in a wall|was poked to death|
+was impaled by|was fireballed by|was stung to death|withered away|
+was killed by|died'
 $startedPattern = 'Done \(\d+\.\d+s\)! For help, type "help"'
 $stoppedPattern = 'ThreadedAnvilChunkStorage: All dimensions are saved'
 
